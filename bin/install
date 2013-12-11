@@ -23,6 +23,7 @@ mkdir $OPENSHIFT_HOMEDIR/.passenger
 
 echo "$version" > $OPENSHIFT_RUBY_DIR/env/OPENSHIFT_RUBY_VERSION
 update-configuration $version
+echo "&#44592;&#51088;&#36789;" 
 
 # Create additional directories required by RUBY and httpd
 ln -s /usr/lib64/httpd/modules $OPENSHIFT_RUBY_DIR
